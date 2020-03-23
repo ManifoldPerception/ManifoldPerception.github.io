@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title type="text">Manifold Perception</title>
+    <subtitle type="html">A blog on Machine Learning, Computer Vision, Language and Speech Processing.</subtitle>
+    <updated>2020-03-23T23:37:42+01:00</updated>
+    <id>https://manifoldperception.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://manifoldperception.github.io/" />
+    <link rel="self" type="application/atom+xml" href="https://manifoldperception.github.io/atom.xml" />
+    <author>
+            <name>Manifold Perception</name>
+            <uri>https://manifoldperception.github.io/</uri>
+            
+                <email>contact@manifoldperception.com</email>
+            </author>
+    
+    <generator uri="https://gohugo.io/" version="0.68.1">Hugo</generator>
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://manifoldperception.github.io/posts/hello-world/" />
+            <id>https://manifoldperception.github.io/posts/hello-world/</id>
+            <updated>2020-03-23T14:01:10+01:00</updated>
+            <published>2020-03-23T00:17:39+01:00</published>
+            
+            <summary type="html"><![CDATA[Hi there.
+$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$]]></summary>
+            
+                <content type="html"><![CDATA[<p>Hi there.</p>
+<p>$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>

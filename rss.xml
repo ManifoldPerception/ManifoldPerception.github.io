@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Manifold Perception</title>
+        <link>https://manifoldperception.github.io/</link>
+        <description>A blog on Machine Learning, Computer Vision, Language and Speech Processing.</description>
+        <generator>Hugo 0.68.1 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>contact@manifoldperception.com (Manifold Perception)</managingEditor>
+        
+        
+            <webMaster>contact@manifoldperception.com (Manifold Perception)</webMaster>
+        
+        
+        <lastBuildDate>Mon, 23 Mar 2020 23:37:42 +0100</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="https://manifoldperception.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Hello World</title>
+                <link>https://manifoldperception.github.io/posts/hello-world/</link>
+                <guid isPermaLink="true">https://manifoldperception.github.io/posts/hello-world/</guid>
+                <pubDate>Mon, 23 Mar 2020 00:17:39 +0100</pubDate>
+                
+                
+                
+                    <description><![CDATA[<p>Hi there.</p>
+<p>$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
