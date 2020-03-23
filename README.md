@@ -1,1 +1,0 @@
-# ManifoldPerception.github.io
