@@ -357,9 +357,9 @@
     <script>
     if (typeof MathJax === 'undefined') {
         window.MathJax = {
-            loader: {
-                load: ['[tex]/mhchem']
-            },
+            
+            
+            
             
                 options: {
                     renderActions: {
@@ -370,7 +370,96 @@
             tex: {
                 inlineMath: {'[+]': [['$', '$']]},
                 tags: 'ams',
-                packages: {'[+]': ['mhchem']}
+                
+                macros: {
+                    a: "\\mathbf{a}",
+                    b: "\\mathbf{b}",
+                    c: "\\mathbf{c}",
+                    d: "\\mathbf{d}",
+                    e: "\\mathbf{e}",
+                    f: "\\mathbf{f}",
+                    g: "\\mathbf{g}",
+                    h: "\\mathbf{h}",
+                    i: "\\mathbf{i}",
+                    j: "\\mathbf{j}",
+                    k: "\\mathbf{k}",
+                    l: "\\mathbf{l}",
+                    m: "\\mathbf{m}",
+                    l: "\\mathbf{n}",
+                    o: "\\mathbf{o}",
+                    p: "\\mathbf{p}",
+                    q: "\\mathbf{q}",
+                    r: "\\mathbf{r}",
+                    s: "\\mathbf{s}",
+                    t: "\\mathbf{t}",
+                    u: "\\mathbf{u}",
+                    v: "\\mathbf{v}",
+                    w: "\\mathbf{w}",
+                    x: "\\mathbf{x}",
+                    y: "\\mathbf{y}",
+                    z: "\\mathbf{z}",
+                    A: "\\mathbf{A}",
+                    B: "\\mathbf{B}",
+                    C: "\\mathbf{C}",
+                    D: "\\mathbf{D}",
+                    E: "\\mathbf{E}",
+                    F: "\\mathbf{F}",
+                    G: "\\mathbf{G}",
+                    H: "\\mathbf{H}",
+                    I: "\\mathbf{I}",
+                    J: "\\mathbf{J}",
+                    K: "\\mathbf{K}",
+                    L: "\\mathbf{L}",
+                    M: "\\mathbf{M}",
+                    N: "\\mathbf{N}",
+                    O: "\\mathbf{O}",
+                    P: "\\mathbf{P}",
+                    Q: "\\mathbf{Q}",
+                    R: "\\mathbf{R}",
+                    S: "\\mathbf{S}",
+                    T: "\\mathbf{T}",
+                    U: "\\mathbf{U}",
+                    V: "\\mathbf{V}",
+                    W: "\\mathbf{W}",
+                    X: "\\mathbf{X}",
+                    Y: "\\mathbf{Y}",
+                    Z: "\\mathbf{Z}",
+                    cA: "\\mathcal{A}",
+                    cB: "\\mathcal{B}",
+                    cC: "\\mathcal{C}",
+                    cD: "\\mathcal{D}",
+                    cE: "\\mathcal{E}",
+                    cF: "\\mathcal{F}",
+                    cG: "\\mathcal{G}",
+                    cH: "\\mathcal{H}",
+                    cI: "\\mathcal{I}",
+                    cJ: "\\mathcal{J}",
+                    cK: "\\mathcal{K}",
+                    cL: "\\mathcal{L}",
+                    cM: "\\mathcal{M}",
+                    cN: "\\mathcal{N}",
+                    cO: "\\mathcal{O}",
+                    cP: "\\mathcal{P}",
+                    cQ: "\\mathcal{Q}",
+                    cR: "\\mathcal{R}",
+                    cS: "\\mathcal{S}",
+                    cT: "\\mathcal{T}",
+                    cU: "\\mathcal{U}",
+                    cV: "\\mathcal{V}",
+                    cW: "\\mathcal{W}",
+                    cX: "\\mathcal{X}",
+                    cY: "\\mathcal{Y}",
+                    cZ: "\\mathcal{Z}",
+                    NN: "\\mathbb{N}",
+                    ZZ: "\\mathbb{Z}",
+                    QQ: "\\mathbb{Q}",
+                    RR: "\\mathbb{R}",
+                    RR: "\\mathbb{R}",
+                    alphab: "\\boldsymbol{\\alpha}",
+                    thetab: "\\boldsymbol{\\theta}",
+                    set: ["\\left\\{#1\\right\\}",1],
+                    norm: ["\\left\\|#1\\right\\|",1]
+                    }
             }
         };
         (function() {
