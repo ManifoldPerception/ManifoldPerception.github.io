@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Manifold Perception</title>
     <subtitle type="html">A blog on Machine Learning, Computer Vision, Language and Speech Processing.</subtitle>
-    <updated>2020-03-24T12:59:10+01:00</updated>
+    <updated>2020-03-25T22:49:06+01:00</updated>
     <id>https://manifoldperception.github.io/</id>
     <link rel="alternate" type="text/html" href="https://manifoldperception.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://manifoldperception.github.io/atom.xml" />
@@ -20,14 +20,49 @@
             <title type="text">Hello World</title>
             <link rel="alternate" type="text/html" href="https://manifoldperception.github.io/posts/hello-world/" />
             <id>https://manifoldperception.github.io/posts/hello-world/</id>
-            <updated>2020-03-24T00:34:49+01:00</updated>
+            <updated>2020-03-25T22:42:20+01:00</updated>
             <published>2020-03-23T00:17:39+01:00</published>
             
-            <summary type="html"><![CDATA[Hi there.
-$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$]]></summary>
+            <summary type="html"><![CDATA[Hi there.]]></summary>
             
-                <content type="html"><![CDATA[<p>Hi there.</p>
-<p>$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$</p>
+                <content type="html"><![CDATA[<p><img src="logo.svg" alt="Imgae Caption"></p>
+<!-- <p align="center">
+<link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+<script src="http://tikzjax.com/v1/tikzjax.js"></script>
+
+<script type="text/tikz">
+    \begin{tikzpicture}[scale=1, line join=bevel, rotate=180]
+    \definecolor{DarkMidnightBlue}{RGB}{0,51,102}
+    % \a and \b are two macros defining characteristic
+    % dimensions of the Penrose triangle.		
+    \pgfmathsetmacro{\a}{2.5}
+    \pgfmathsetmacro{\b}{0.9}
+
+    \tikzset{%
+      apply style/.code     = {\tikzset{#1}},
+      triangle_edges/.style = {thick,draw=black}
+    }
+
+    \foreach \theta/\facestyle in {%
+      0/{triangle_edges, fill = DarkMidnightBlue!50},
+      120/{triangle_edges, fill = DarkMidnightBlue!90},
+      240/{triangle_edges, fill = DarkMidnightBlue!25}%
+    }{
+      \begin{scope}[rotate=\theta]
+      \draw[apply style/.expand once=\facestyle]
+      ({sqrt(3)/2*\a},{-0.5*\a})                     --
+      ++(\b,0)                                       --
+      ({-0.5*\b},{\a+3*sqrt(3)/2*\b})                -- % higher point	
+      ({-sqrt(3)/2*\a-2.5*\b},{-.5*\a-sqrt(3)/2*\b}) -- % rightmost point
+      ++({.5*\b},-{sqrt(3)/2*\b})                    -- % lower point
+      ({-0.5*\b},{\a+sqrt(3)/2*\b})                  --
+      cycle;
+      \end{scope}
+    }	
+	  \end{tikzpicture}
+</script>
+</p> --><blockquote>
+</blockquote>
 ]]></content>
             
             

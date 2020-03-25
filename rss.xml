@@ -21,7 +21,7 @@
             <webMaster>contact@manifoldperception.com (Manifold Perception)</webMaster>
         
         
-        <lastBuildDate>Tue, 24 Mar 2020 12:59:10 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2020 22:49:06 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://manifoldperception.github.io/rss.xml" />
         
@@ -34,8 +34,44 @@
                 
                 
                 
-                    <description><![CDATA[<p>Hi there.</p>
-<p>$$\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \ge \frac{3}{2}\quad\forall a,b,c &gt; 0.$$</p>
+                    <description><![CDATA[<p><img src="logo.svg" alt="Imgae Caption"></p>
+<!-- <p align="center">
+<link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+<script src="http://tikzjax.com/v1/tikzjax.js"></script>
+
+<script type="text/tikz">
+    \begin{tikzpicture}[scale=1, line join=bevel, rotate=180]
+    \definecolor{DarkMidnightBlue}{RGB}{0,51,102}
+    % \a and \b are two macros defining characteristic
+    % dimensions of the Penrose triangle.		
+    \pgfmathsetmacro{\a}{2.5}
+    \pgfmathsetmacro{\b}{0.9}
+
+    \tikzset{%
+      apply style/.code     = {\tikzset{#1}},
+      triangle_edges/.style = {thick,draw=black}
+    }
+
+    \foreach \theta/\facestyle in {%
+      0/{triangle_edges, fill = DarkMidnightBlue!50},
+      120/{triangle_edges, fill = DarkMidnightBlue!90},
+      240/{triangle_edges, fill = DarkMidnightBlue!25}%
+    }{
+      \begin{scope}[rotate=\theta]
+      \draw[apply style/.expand once=\facestyle]
+      ({sqrt(3)/2*\a},{-0.5*\a})                     --
+      ++(\b,0)                                       --
+      ({-0.5*\b},{\a+3*sqrt(3)/2*\b})                -- % higher point	
+      ({-sqrt(3)/2*\a-2.5*\b},{-.5*\a-sqrt(3)/2*\b}) -- % rightmost point
+      ++({.5*\b},-{sqrt(3)/2*\b})                    -- % lower point
+      ({-0.5*\b},{\a+sqrt(3)/2*\b})                  --
+      cycle;
+      \end{scope}
+    }	
+	  \end{tikzpicture}
+</script>
+</p> --><blockquote>
+</blockquote>
 ]]></description>
                 
                 
