@@ -9,7 +9,7 @@
     <channel>
         <title>Manifold Perception</title>
         <link>https://manifoldperception.github.io/</link>
-        <description>A blog on Machine Learning, Computer Vision, Language and Speech Processing.</description>
+        <description>Research in artificial intelligence and machine perception.</description>
         <generator>Hugo 0.68.1 https://gohugo.io/</generator>
         
             <language>en</language>
@@ -21,7 +21,7 @@
             <webMaster>contact@manifoldperception.com (Manifold Perception)</webMaster>
         
         
-        <lastBuildDate>Fri, 27 Mar 2020 17:27:36 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2020 17:55:27 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://manifoldperception.github.io/rss.xml" />
         
